@@ -3,7 +3,7 @@
   "version": "0.01",
   "description": "Simple Scraper",
   "permissions":["<all_urls>"],
-	"browser_action": {
+	"action": {
 		"default_title": "Simple Scraper",
 		"default_popup": "popout.html"
 	},
@@ -12,5 +12,5 @@
 		"js": ["contentScript.js"],
 		"run_at": "document_end"
 	}],
-  "manifest_version": 2
+  "manifest_version": 3
 }
